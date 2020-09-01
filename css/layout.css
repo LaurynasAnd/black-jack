@@ -4,4 +4,39 @@
     background-position: center;
     width: 100%;
     height: 100vh;
+    position: relative;
 }
+    .title {
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        top: 70px;
+        transform: translate(-50%);
+        font-size: 50px;
+        font-weight: 700;
+        color: #fff;
+        -webkit-text-stroke: 2px black
+    }
+    .bet {
+        background-color: yellow;
+        width: 150px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        .bet > .sum {
+            font-size: 30px;
+            font-weight: 700;
+            color: #fff;
+            -webkit-text-stroke: 1px #000;
+        }
+        .bet > .chip {
+            width: 100px;
+        }
+    .bank {}
+    .cards {}
+    .button {}
