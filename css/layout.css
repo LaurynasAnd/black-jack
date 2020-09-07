@@ -44,7 +44,33 @@
         bottom: 0;
         left: 30px;
         width: 50vw;
-        height: 70vh;
+        height: 60vh;
     }
+        .bank > .bank-chips {
+            display: inline-block;
+            position: absolute;
+            width: 110px;
+            height: 110px;
+        }
+        .bank > .bank1{
+            background-color: pink;
+            top: 5px;
+            left: 5px;
+        }
+        .bank > .bank10{
+            background-color: plum;
+            top: 123px;
+            left: 30px;
+        }
+        .bank > .bank100{
+            background-color: powderblue;
+            bottom: 40px;
+            left: 39%;
+        }
+        .bank > .bank500{
+            background-color: skyblue;
+            bottom: 5px;
+            right: 5px;
+        }
     .cards {}
     .button {}
