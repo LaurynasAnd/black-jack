@@ -20,7 +20,6 @@
         -webkit-text-stroke: 2px black;
     }
     .bet {
-        background-color: yellow;
         width: 150px;
         position: absolute;
         top: 30px;
@@ -83,5 +82,49 @@
             color: #fff;
             -webkit-text-stroke: 1px #000;
         }
-    .cards {}
-    .button {}
+    .cards {
+        position: absolute;
+        background-color: violet;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+        .cards > .player {}
+        .cards > .dealer {}
+        .cards img {
+            display: inline-block;
+            width: 100px;
+        }
+    .button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background: radial-gradient(circle, #b3b3b6 0%, #141414 80%);
+        text-transform: capitalize;
+        color: white;
+        border-radius: 50%;
+        border: 2px solid #000;
+        box-shadow: 0px 0px 0px #000000bf;
+        bottom: 25%;
+        cursor: pointer;
+    }
+    .button.deal {
+        left: 30%;
+    }
+    .button.split {
+        left: 40%;
+    }
+    .button.stand {
+        left: 60%;
+    }
+
+
+
+    @media (max-width: 1100px){}
+    @media (max-width: 768px){}
+    @media (max-width: 420px){}
